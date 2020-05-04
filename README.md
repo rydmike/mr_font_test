@@ -25,7 +25,7 @@ On Windows Desktop we can see that the fonts look correct. We can also notice th
 font as the default font. This is expected on the Windows platform. If Roboto is desired on Windows to
 ensure consistent design the font has to be bundled and specified in the theme.
 
-![screenshot](https://github.com/rydmike/mr_font_test/tree/master/screenshots/FontsWinDemo.png?raw=true)
+![screenshot](https://github.com/rydmike/mr_font_test/blob/master/screenshots/FontsWinDemo.png?raw=true)
 
 ### WEB, using DomCanvas
 
@@ -36,7 +36,7 @@ The fonts for default and forced Roboto are thus identical.
 This WEB example was made on a Windows computer and the "Roboto" font is still included as a
 bundled asset, but for the default look never explicitly specified.
 
-![screenshot](https://github.com/rydmike/mr_font_test/tree/master/screenshots/FontsWebDomCanvasDemo.png?raw=true)
+![screenshot](https://github.com/rydmike/mr_font_test/blob/master/screenshots/FontsWebDomCanvasDemo.png?raw=true)
 
 ### WEB, using CanvasKit
 
@@ -48,7 +48,7 @@ flutter run --release --dart-define=FLUTTER_WEB_USE_SKIA=true -d Chrome
 
 We can see the fonts are NOT OK! The fonts are too thin compared to similar fonts Windows Desktop, Android and iOS too, as well as compared to the the previous WEB DomCanvas too.
 
-![screenshot](https://github.com/rydmike/mr_font_test/tree/master/screenshots/FontsWebCanvasKitsDemo.png?raw=true)
+![screenshot](https://github.com/rydmike/mr_font_test/blob/master/screenshots/FontsWebCanvasKitsDemo.png?raw=true)
 
 ### Setup and version
 
