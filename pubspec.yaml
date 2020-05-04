@@ -24,7 +24,7 @@ flutter:
   uses-material-design: true
   fonts:
     # While Roboto is included in standard Flutter, it is not standard or necessarily included
-    # in all platforms, to ensure we can use it we provide it as an asset
+    # in all platforms, to ensure we can use it, we provide it as an asset as well
     - family: Roboto
       fonts:
         - asset: assets/fonts/Roboto/Roboto-Thin.ttf
@@ -104,29 +104,3 @@ flutter:
         - asset: assets/fonts/montserrat/Montserrat-BlackItalic.ttf
           weight: 900
           style: italic
-    - family: Work Sans
-      fonts:
-        - asset: assets/fonts/worksans/WorkSans-Thin.ttf
-          weight: 100
-        - asset: assets/fonts/worksans/WorkSans-ExtraLight.ttf
-          weight: 200
-        - asset: assets/fonts/worksans/WorkSans-Light.ttf
-          weight: 300
-        - asset: assets/fonts/worksans/WorkSans-Regular.ttf
-          weight: 400
-        - asset: assets/fonts/worksans/WorkSans-Medium.ttf
-          weight: 500
-        - asset: assets/fonts/worksans/WorkSans-SemiBold.ttf
-          weight: 600
-        - asset: assets/fonts/worksans/WorkSans-Bold.ttf
-          weight: 700
-        - asset: assets/fonts/worksans/WorkSans-ExtraBold.ttf
-          weight: 800
-        - asset: assets/fonts/worksans/WorkSans-Black.ttf
-          weight: 900
-    - family: Rubik Mono One
-      fonts:
-        - asset: assets/fonts/rubikmono/RubikMonoOne-Regular.ttf
-    - family: Fugaz One
-      fonts:
-        - asset: assets/fonts/fugazone/FugazOne-Regular.ttf
