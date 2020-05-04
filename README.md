@@ -19,6 +19,9 @@ This test contains three comparisons:
 The screenshots below show a major difference in how the fonts look when the Flutter WEB CanvasKit is used
 compared to how fonts look on Android, Windows and even the default Flutter WEB DomCanvas.
 
+You can also use the links to live examples provided further below to the DomCanvas and CanvasKit versions
+and put them in separate browser tabs and switch between them to observe the significant difference in font rendering.
+
 ### Windows Desktop
 
 On Windows Desktop we can see that the fonts look correct. We can also notice that we get a none "Roboto"
@@ -36,6 +39,9 @@ The fonts for default and forced Roboto are thus identical.
 This WEB example was made on a Windows computer and the "Roboto" font is still included as a
 bundled asset, but for the default look never explicitly specified.
 
+The DomCanvas example can be seen as a live example here:
+https://rydmike.github.io/fontissue/domcanvas
+
 ![screenshot](https://github.com/rydmike/mr_font_test/blob/master/screenshots/FontsWebDomCanvasDemo.png?raw=true)
 
 ### WEB, using CanvasKit
@@ -47,6 +53,9 @@ flutter run --release --dart-define=FLUTTER_WEB_USE_SKIA=true -d Chrome
 ```
 
 We can see the fonts are NOT OK! The fonts are too thin compared to similar fonts Windows Desktop, Android and iOS too, as well as compared to the the previous WEB DomCanvas too.
+
+The CanvasKit example can be seen as a live example here:
+https://rydmike.github.io/fontissue/canvaskit
 
 ![screenshot](https://github.com/rydmike/mr_font_test/blob/master/screenshots/FontsWebCanvasKitsDemo.png?raw=true)
 
