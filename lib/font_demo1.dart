@@ -11,6 +11,7 @@ class FontDemo1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     final double _topPadding = MediaQuery.of(context).padding.top;
     return Scaffold(
       extendBodyBehindAppBar: true,
